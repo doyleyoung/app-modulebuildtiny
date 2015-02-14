@@ -1,6 +1,8 @@
 requires 'Archive::Tar';
 requires 'CPAN::Meta';
 requires 'CPAN::Meta::Merge';
+requires 'Data::Section::Simple';
+requires 'Encode';
 requires 'Exporter', '5.57';
 requires 'File::Path';
 requires 'File::Slurper';
@@ -12,6 +14,7 @@ requires 'Module::Metadata';
 requires 'Module::Runtime';
 requires 'Parse::CPAN::Meta';
 requires 'Software::LicenseUtils';
+requires 'Text::Template';
 requires 'perl', '5.010';
 
 on configure => sub {

@@ -2,6 +2,7 @@ Revision history for App-ModuleBuildTiny
 
           Add lib and script paths to appropriate environmental variables
           Determine license from POD
+          Added mint command
 
 0.006     2015-02-14
           Add creation comment to Build.PL
